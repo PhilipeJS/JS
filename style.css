@@ -1,12 +1,17 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
+    background-image: url(img/imagem.jpg);
+    background-repeat: no-repeat;
     margin: 20px;
     text-align: center;
+    background-position-x: center;
+    background-size: 1900px 1000px;
+
 }
 
 h1 {
-    color: #333;
+    color: #ffffff;
 }
 
 button {
@@ -20,21 +25,21 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #ffffff;
 }
 
 #mensagem {
-    color: #007BFF;
+    color: #ffffff;
     font-weight: bold;
 }
 
 #textoAlterado {
-    color: #555;
+    color: #ffffff;
     font-style: italic;
 }
 
 a {
-    color: #007BFF;
+    color: #ffffff;
     text-decoration: none;
 }
 
